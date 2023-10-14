@@ -1,0 +1,37 @@
+th, td {
+    outline: solid;
+}
+.list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+/*стуктурні псевдокласи*/
+
+.iteam:first-child {
+    color: blue;
+}
+.iteam:nth-child(2) {
+    color: red;
+}
+.iteam:nth-child(3n) {
+    color: green;
+}
+.iteam:nth-child(n+4) {
+    color: blueviolet;
+}
+.iteam:last-child {
+    color: orange;
+
+/*псевдокласи стану*/
+
+}
+.iteam:hover {
+    cursor: vertical-text;
+}
+a:active {
+    color: yellow;
+}
+
